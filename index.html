@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
+    <title>Show the Local Weather</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="weather">
+            <button id="temperature"></button>
+            <h1 id="region">
+            </h1>
+            <h3 id="description">
+            </h3>
+            <i class="" id="weather-icon"></i>
+        </div>
+
+
+
+        <div id="form">
+            <form id="city-form">
+                <div>
+                    <input type="text" id="city-name" placeholder="Enter a city name..">
+                </div>
+                <div>
+                    <input type="submit" id="change-location" value="Change Location">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <footer id="footer">
+            <p>External Resouces Used:
+                <a href="http://openweathermap.org/">Open Weather Map API,</a>
+                <a href="https://github.com/erikflowers/weather-icons"> Weather Icons,</a>
+                <a href="http://ipinfo.io/">Ip Info API</a>
+            </p>
+        </footer>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script src="js/iconJson.js"></script>
+    </script>
+
+</body>
+
+
+</html>

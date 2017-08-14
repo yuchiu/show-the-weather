@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+* {
+  margin: 0;
+}
+body,html {
+    color: white;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+#container{
+    
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+
+#container:after {
+  content: "";
+  display: block;
+}
+#footer, #footer:after {
+  height: 142px; 
+}
+
+
+#footer {
+    padding: 1rem;
+    color: #efefef;
+    text-align: center;
+}
+
+#weather,
+#form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#temperature {
+    margin-top: 50px;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-size: 4em;
+    padding: 1px 8px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#region {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#description {
+    margin-bottom: 15px;
+}
+
+.wi {
+    font-size: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+#change-location {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 13px 32px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#city-name {
+    margin-top: 20px;
+    color: white;
+    border: 0;
+    background: transparent
+}
+
+button:focus,
+#change-location:focus,
+#city-name {
+    outline: none;
+}
+
+
+a {
+    color: white;
+}
