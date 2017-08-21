@@ -21,14 +21,14 @@ let weather = (function () {
 
     // function:    
     function getIp() {
-        const ipApi = "http://ipinfo.io"
+        const ipApi = "https://ipinfo.io"
         $.getJSON(ipApi, function (data) {
             initWeather(data.city);
         });
     }
 
     function initWeather(city) {
-        const weatherApi = "http://api.openweathermap.org/data/2.5/weather?q=";
+        const weatherApi = "https://api.openweathermap.org/data/2.5/weather?q=";
         const weatherApiKey = '&appid=7f87800c8c0b2b95faec9fb5ab78b73f';
         let UnitURL = (curUnit === true ? "&units=imperial" : "&units=metric");
         $.get(weatherApi + city + weatherApiKey + UnitURL, (data) => {
