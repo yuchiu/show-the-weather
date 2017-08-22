@@ -9,3 +9,4 @@ User Story: I can push a button to toggle between Fahrenheit and Celsius.
 
 User Story: I can see the weather in other location
 
+![alt text](https://github.com/yuchiu/show-the-weather/blob/master/slw.gif) 
